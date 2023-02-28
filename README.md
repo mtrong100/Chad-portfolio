@@ -7,7 +7,7 @@ Library: Swiper JS, Framer-motion, React-icon
 
 Main content: Full responsive website, good UI with toggle darkmode/lightmode, Simple Animation
 
-
+Link web: https://mtrong100.github.io/Chad-portfolio/
 
 
 ### MAIN PAGE (DARK MODE)
