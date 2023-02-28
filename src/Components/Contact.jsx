@@ -15,7 +15,7 @@ const Contact = () => {
                 <span className="text-xl md:text-2xl text-blue font-semibold">
                   {item.icon}
                 </span>
-                <p className="text-sm md:text-lg font-medium">{item.text}</p>
+                <p className="text-sm lg:text-lg font-medium">{item.text}</p>
               </div>
             ))}
             <input

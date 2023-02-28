@@ -42,7 +42,8 @@ const Navbar = () => {
             ></MdDarkMode>
           )}
         </div>
-        <div className="md:flex hidden items-center md:gap-6 lg:gap-10">
+        {/* menu on desktop */}
+        <div className="lg:flex hidden items-center md:gap-6 lg:gap-10">
           {navLinks.map((item, id) => (
             <div key={id}>
               <a
@@ -56,13 +57,13 @@ const Navbar = () => {
         </div>
         <HiMenuAlt3
           onClick={() => setToggle(!toggle)}
-          className="text-3xl md:hidden font-bold cursor-pointer transition-all"
+          className="text-3xl lg:hidden font-bold cursor-pointer transition-all"
         ></HiMenuAlt3>
       </div>
 
       {/* menu toggle */}
       <div
-        className={`fixed top-0 right-0 bottom-0 dark:bg-darksecondary bg-blue w-[250px] transition-all duration-300 ${
+        className={`fixed top-0 right-0 bottom-0 dark:bg-darksecondary shadow-2xl bg-blue md:w-[300px] w-[250px] transition-all duration-300 ${
           toggle ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -83,7 +84,7 @@ const Navbar = () => {
             {navLinks.map((item, id) => (
               <div key={id}>
                 <a
-                  className="text-white text-lg font-normal"
+                  className="text-white md:text-xl text-lg font-normal"
                   href={`#${item.href}`}
                 >
                   {item.text}
