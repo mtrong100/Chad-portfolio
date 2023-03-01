@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Chad-portfolio/static/css/main.c2ce67a2.css",
-    "main.js": "/Chad-portfolio/static/js/main.3c655247.js",
+    "main.css": "/Chad-portfolio/static/css/main.073a147b.css",
+    "main.js": "/Chad-portfolio/static/js/main.ee21f856.js",
     "static/media/blog3.png": "/Chad-portfolio/static/media/blog3.69baa0a8f63666e10bac.png",
     "static/media/blog4.png": "/Chad-portfolio/static/media/blog4.44f948385fcaf8e623c0.png",
     "static/media/hero.png": "/Chad-portfolio/static/media/hero.42923d1b9f9eddf41031.png",
@@ -21,11 +21,11 @@
     "static/media/project4.jpg": "/Chad-portfolio/static/media/project4.98359c8aff9ee7e85a81.jpg",
     "static/media/testimonial3.png": "/Chad-portfolio/static/media/testimonial3.a9d78d219c7168e613ba.png",
     "index.html": "/Chad-portfolio/index.html",
-    "main.c2ce67a2.css.map": "/Chad-portfolio/static/css/main.c2ce67a2.css.map",
-    "main.3c655247.js.map": "/Chad-portfolio/static/js/main.3c655247.js.map"
+    "main.073a147b.css.map": "/Chad-portfolio/static/css/main.073a147b.css.map",
+    "main.ee21f856.js.map": "/Chad-portfolio/static/js/main.ee21f856.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2ce67a2.css",
-    "static/js/main.3c655247.js"
+    "static/css/main.073a147b.css",
+    "static/js/main.ee21f856.js"
   ]
 }
